@@ -254,6 +254,19 @@ img {
   line-height: 1.71;
   color: var(--second-cl-txt);
 }
+.svg-advantage {
+  display: flex;
+  margin-bottom: 30px;
+  background-color: var(--srcond-bcg-cl);
+  border-radius: 4px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.icon-advantage {
+  width: 70px;
+  height: 70px;
+}
 
 /* Секція - Перелік послуг */
 .title-team-services {
