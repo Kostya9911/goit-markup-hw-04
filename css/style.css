@@ -9,7 +9,7 @@ ul {
   padding: 0;
 }
 
-/* Переменные */
+/* Змінні*/
 :root {
   /* Колір тексту */
 
@@ -98,9 +98,6 @@ img {
 
 .list-contact {
   color: var(--second-cl-txt);
-  /* display: inline-flex;
-  align-items: center;
-  justify-content: center; */
 }
 .link {
   font-weight: 500;
@@ -138,7 +135,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  /* 344 */
+
   margin-right: auto;
 }
 
@@ -170,7 +167,6 @@ img {
 
 .head-section {
   background-color: var(--main-bcg-cl);
-  /* padding: 200px 0; */
 }
 .main-title {
   font-weight: 900;
@@ -262,10 +258,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-/* .icon-advantage {
-  width: 70px;
-  height: 70px;
-} */
 
 /* Секція - Перелік послуг */
 .title-team-services {
@@ -427,12 +419,6 @@ img {
   color: #ffffff;
 }
 
-/* .social-link:hover,
-.social-link:focus {
-  color: var(--ligt-cl-txt);
-  background-color: var(--link-cl-txt);
-} */
-
 /* Стилізація ссилок у футері псевдокласами */
 .link-adr-footer:hover,
 .link-adr-footer:focus,
@@ -529,12 +515,6 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* .item-project:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-.item-project:not(:nth-child(3n)) {
-  margin-right: 30px;
-} */
 
 .list.list-advantage {
   display: flex;
