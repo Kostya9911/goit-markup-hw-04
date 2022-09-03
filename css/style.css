@@ -98,6 +98,9 @@ img {
 
 .list-contact {
   color: var(--second-cl-txt);
+  /* display: inline-flex;
+  align-items: center;
+  justify-content: center; */
 }
 .link {
   font-weight: 500;
@@ -111,21 +114,9 @@ img {
   padding-bottom: 32px;
 }
 
-.decor-mail::before {
-  /* content: '';
-  width: 16px;
-  height: 16px;
-
-  background-size: contain;
+.item-nav a {
   display: inline-flex;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-color: tomato; */
-  /* background-image: url(../img/project1.jpg); */
-  /* margin-right: 6px; */
-}
-
-.dercor-tel {
+  align-items: center;
 }
 
 .link:hover,
@@ -166,6 +157,11 @@ img {
   padding-top: 24px;
   margin-right: 93px;
   padding-bottom: 25px;
+}
+
+.list-contact svg {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* Стилізація головної частини сторінки. Мейн */
@@ -356,6 +352,28 @@ img {
   background-color: var(--link-cl-txt);
 }
 
+/* Секція - Постійні клієнти */
+.list-client {
+  display: flex;
+  gap: 30px;
+}
+.link-client {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--col-icon-11);
+  color: var(--col-icon-11);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.link-client:hover,
+.link-client:focus {
+  border: 1px solid var(--link-cl-txt);
+}
+.icon-client {
+  fill: currentColor;
+}
 /* Підвал */
 
 .footer {
