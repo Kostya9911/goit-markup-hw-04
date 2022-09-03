@@ -25,6 +25,9 @@ ul {
   --col-bcg-11: #188ce8;
   --col-grad-12: rgba(47, 48, 58, 0.4);
 
+  /* Колір іконок */
+  --col-icon-11: #afb1b8;
+
   /* Інше */
   --col-bd-11: #ececec;
   --col-bd-12: #eee;
@@ -309,6 +312,7 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--second-cl-txt);
+  margin-bottom: 16px;
 }
 
 .list-team {
@@ -322,6 +326,34 @@ img {
 
 .team-name-container {
   padding: 30px 32px;
+}
+
+.list-socials-icon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+  color: var(--col-icon-11);
+}
+.social-icon {
+  fill: currentColor;
+}
+
+/* Ховер та фокус - Іконкі соцмереж - Команда та Футер */
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--ligt-cl-txt);
+  background-color: var(--link-cl-txt);
 }
 
 /* Підвал */
@@ -345,6 +377,36 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
+.footer-container {
+  display: flex;
+}
+
+.footer-div-1 {
+  margin-right: 70px;
+}
+.footer-div-2 a {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--ligt-cl-txt);
+}
+.footer-div-2 h2 {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* .social-link:hover,
+.social-link:focus {
+  color: var(--ligt-cl-txt);
+  background-color: var(--link-cl-txt);
+} */
+
 /* Стилізація ссилок у футері псевдокласами */
 .link-adr-footer:hover,
 .link-adr-footer:focus,
