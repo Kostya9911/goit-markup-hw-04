@@ -329,11 +329,14 @@ img {
   gap: 10px;
   justify-content: center;
 }
-
-.social-link {
-  display: flex;
+.list-socials-icon > li {
   height: 44px;
   width: 44px;
+}
+.social-link {
+  display: flex;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
 
   align-items: center;
@@ -357,10 +360,15 @@ img {
   display: flex;
   gap: 30px;
 }
-.link-client {
-  display: flex;
+
+.list-client > li {
   width: 170px;
   height: 92px;
+}
+.link-client {
+  display: flex;
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--col-icon-11);
   color: var(--col-icon-11);
   border-radius: 4px;
