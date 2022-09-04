@@ -109,6 +109,7 @@ img {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 
 .item-nav a {
@@ -218,9 +219,11 @@ img {
   background-image: linear-gradient(to bottom, var(--col-grad-12), var(--col-grad-12)),
     url(../img/img-bcg-hero.jpg);
 }
-.overlay:hover {
+
+/* Помилково зроблений, но крутий ефект Ховеру */
+/* .overlay:hover {
   background-image: url(../img/img-bcg-hero.jpg);
-}
+} */
 /* Секція - Перелік переваг Студії */
 
 /* Приховує заголовоки по всьому сайту */
@@ -311,7 +314,6 @@ img {
 .title-team {
   margin-bottom: 10px;
 }
-
 .team-name-container {
   padding: 30px 32px;
 }
@@ -334,8 +336,6 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--col-icon-11);
-}
-.social-icon {
   fill: currentColor;
 }
 
@@ -366,14 +366,14 @@ img {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  fill: currentColor;
 }
 .link-client:hover,
 .link-client:focus {
   border: 1px solid var(--link-cl-txt);
+  color: #2196f3;
 }
-.icon-client {
-  fill: currentColor;
-}
+
 /* Підвал */
 
 .footer {
@@ -398,6 +398,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-div-1 {
